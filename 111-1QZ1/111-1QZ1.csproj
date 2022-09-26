@@ -69,15 +69,24 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
+    <Content Include="Bomb.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Bomb.aspx.cs">
+      <DependentUpon>Bomb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bomb.aspx.designer.cs">
+      <DependentUpon>Bomb.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="answer.md" />
+    <Content Include="answer.md.rar" />
     <None Include="packages.config" />
     <Content Include="readme.md" />
     <None Include="Web.Debug.config">
